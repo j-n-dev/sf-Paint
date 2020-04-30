@@ -26,6 +26,8 @@ public:
 
 	sf::Vector2i getSize();
 
+	sf::Vector2i getMousePos();
+
 	sf::String getCaption();
 private:
 	sf::RenderWindow _window;

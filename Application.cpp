@@ -39,6 +39,11 @@ sf::Vector2i Application::getSize() {
 	return { (int)_width, (int)_height };
 }
 
+sf::Vector2i Application::getMousePos()
+{
+	return sf::Mouse::getPosition(_window);
+}
+
 sf::String Application::getCaption() {
 	return _caption;
 }
